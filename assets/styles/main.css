@@ -1,3 +1,5 @@
+
+
 *{
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif ;
@@ -139,6 +141,43 @@ main{
 aside{
     width: 10%;
     margin-left: 42.5px;
+}
+
+.iframe-container{
+    width: 100%;
+    height: 750px;
+    overflow:hidden;
+}
+
+.iframe-theory{
+    width: 100%;
+    height: 100%;
+}
+
+#img-article-container{
+    width: 100%;
+    height: 500px;
+}
+
+#img-article-container img{
+    width: 100%;
+    max-height: 600px;
+}
+
+h6{
+    font-size: 8px;
+}
+
+.article-footer{
+    width: 100%;
+}
+
+.article-footer button{
+    float: left;
+}
+
+.article-footer img{
+    float: right;
 }
 
 /*</Content>*/
