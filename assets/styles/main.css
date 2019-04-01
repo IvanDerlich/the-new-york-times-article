@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif ;
+    font-family: 'News Cycle', sans-serif ;
 }
 
 header{    
@@ -7,19 +9,7 @@ header{
     height: 36px;
 }
 
-#article-header{
-    padding: 2px;
-}
 
-.nav-title{        
-    width: 40%;
-    min-width: 190px;    
-    margin: 0 auto;
-}
-
-.nav-title svg {
-    height: 25.64px;    
-}
 
 nav{
     background-color: coral;
@@ -27,12 +17,87 @@ nav{
     top: 0;
     height: 36px;
     width: 100%;    
+    min-width: 600px;
+
+}
+
+nav > div{
+    width: 33.33%;
+    float: left;
+    padding: 2px;
+}
+
+.nav-left{ 
+    height: 100%;
+    background-color: aqua;
+}
+
+.nav-left > h4{
+    display: inline-block;
+}
+
+.nav-left i {
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.nav-center{        
+    min-width: 190px;    
+    margin: 5px auto;
+}
+
+.nav-center svg {
+    max-height: 25.64px; 
+    width: 100%; 
+}
+
+.nav-right{ 
+    height: 100%;
+    background-color: bisque;
+}
+
+.nav-button{
+    float: right;
+    margin: 5px;
 }
 
 main{
     background-color: red; 
     min-height: 60vh;        
 }
+
+#article-header{
+    overflow: hidden;
+    padding: 2px;
+    width: 80%;
+    min-width: 532px;
+    margin: 0 auto;
+  
+}
+
+#article-header img{
+    width: 100%;
+    
+}
+
+#article-header h1{
+    padding-top: 40px; 
+    padding-bottom: 20px; 
+    font-size: 30px;
+    width: 40%;
+    margin-left: 20%;
+    font-style: italic;
+}
+
+#article-header p{
+    display: inline-block;
+    width: 80%;
+    font-size: 15px;
+    margin-top: 8px; 
+}
+
+
 
 footer{
     background-color: green;
