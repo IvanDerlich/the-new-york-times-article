@@ -6,19 +6,17 @@
 
 header{    
     background-color: blue;
-    height: 36px;
+    height: 36px; 
 }
-
-
 
 nav{
     background-color: coral;
+    z-index: 2;
     position: fixed;
     top: 0;
     height: 36px;
     width: 100%;    
     min-width: 600px;
-
 }
 
 nav > div{
@@ -96,10 +94,58 @@ main{
     font-size: 15px;
     margin-top: 8px; 
 }
+/*<Content>*/
+#content-container{
+    margin-left: 39.5px;
+    margin-right: 39.5px;
+    margin-bottom: 16px;
+    
+}
+#content-container #content, 
+#content-container aside{
+    margin-top: 50px;
+    position: relative;
+    float:left;
+    top:0;
+}
 
+#content-container::after{
+    content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#content{    
+    margin-left: 172.5px;
+    width: 50%;
+}
+#content h1{    
+    margin-bottom: 20px;
+}
+#content h4{
+    margin-top:10px;
+    display: inline-block;    
+}
+#content img{
+     max-height: 30px ;
+     float: right;     
+}
+#content-text{
+    margin-top: 40px;
+}
+
+aside{
+    width: 10%;
+    margin-left: 42.5px;
+}
+
+/*</Content>*/
 
 
 footer{
     background-color: green;
     height: 56px;
+    clear: both;
 }
