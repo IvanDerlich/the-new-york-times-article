@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+header{    
+    background-color: blue;
+    height: 36px;
+}
+
+#article-header{
+    padding: 2px;
+}
+
+.nav-title{        
+    width: 40%;
+    min-width: 190px;    
+    margin: 0 auto;
+
+}
+
+.nav-title svg {
+    height: 25.64px;    
+}
+
+nav{
+    background-color: coral;
+    position: fixed;
+    top: 0;
+    height: 36px;
+    width: 100%;    
+}
+
+main{
+    background-color: red; 
+    min-height: 60vh;        
+}
+
+footer{
+    background-color: green;
+    height: 56px;
+}
