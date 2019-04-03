@@ -272,6 +272,7 @@ article .article-date{
 #articles-titles h1{
     font-style: bold;
     font: 2s5px;
+    margin: 20px 0;
 }
 
 #articles-titles h2{
@@ -279,13 +280,104 @@ article .article-date{
     padding: 20px 0;
     border-top: 1px solid rgba(128, 128, 128, 0.233); 
 }
+
+#side-add{         
+    background-color: blue;
+}
+
+#side-signup{    
+    margin-top: 600px;
+    background-color: aquamarine;
+}
+
+.button{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+/* .tittle1{
+    margin-top: 30px;
+} */
+
+
 /*</Content>*/
 
 
 /*<Footer>*/
 footer{
-    background-color: green;
-    height: 56px;
+    background-color: green;    
     clear: both;
 }
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#footer-columns{
+    width:100%;
+}
+
+.footer-column{
+    float:left;
+    width: 16.66%;
+    padding: 20px;
+}
+
+.footer-column>a{
+    width: 100%;
+    display: block;
+    font-size: 11px;
+}
+
+
+footer>div{
+    width:100%;
+}
+
+.fullwidth{
+    width:1000px;
+}
+.clear{
+    clear:both;
+}
+#gohome{
+    margin-top: 26px; /* CAMBIAR 200px*/
+    width: 75%;
+}
+
+.float-left{
+    float:left;
+}
+
+#footer-title{
+    float:left;
+    width:25%;
+}
+.text-align-right{
+    text-align: right;
+}
+
+#legal {
+    margin-top:10px;
+    margin-left: 10px
+}
+
+#legal a{
+    font-size: 11px
+}
+
+#legal-awrap{
+    padding: 0 auto;
+}
+
+/*
+-como conseguir esta fuente en google fonts: https://fonts.google.com/specimen/Libre+Franklin?selection.family=Libre+Franklin
+-como centrar el legat
+*/
 /*</Footer>*/
+
+.subs-icon{
+    height: 13px;
+    width: 13px;
+}
