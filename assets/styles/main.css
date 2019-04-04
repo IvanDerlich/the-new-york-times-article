@@ -1,5 +1,3 @@
-
-
 *{
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif ;
@@ -23,14 +21,14 @@ header{
 }
 
 nav{
-    background-color: coral;
+    background-color: rgb(255, 255, 255);
     z-index: 2;
     position: fixed;
     top: 0;
     height: 48px;
     width: 100%;    
     min-width: 600px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(212, 212, 212);
 }
 
 nav > div{
@@ -42,12 +40,12 @@ nav > div{
 #titlem{
     width: 100%;
     display:block;
-    margin: 5px auto;
+    margin: 10px auto 0px auto;
 }
 
 .nav-left{ 
     height: 100%;
-    background-color: aqua;
+   
 }
 
 .nav-left > h4{
@@ -68,7 +66,6 @@ nav > div{
 
 .nav-center{        
     min-width: 190px;    
-    /* margin: 0 auto; */
 }
 
 .nav-center svg {
@@ -78,8 +75,7 @@ nav > div{
 }
 
 .nav-right{ 
-    height: 100%;
-    background-color: bisque;
+    height: 100%;   
 }
 
 .nav-button{
@@ -88,7 +84,7 @@ nav > div{
 }
 
 main{
-    background-color: red; 
+    background-color: rgb(255, 255, 255); 
     min-height: 60vh;        
 }
 
@@ -97,8 +93,7 @@ main{
     padding: 2px;
     width: 80%;
     min-width: 532px;
-    margin: 0 auto;
-  
+    margin: 0 auto 40px auto;
 }
 
 #article-header img{
@@ -106,7 +101,7 @@ main{
     
 }
 
-#article-header h1{
+#article-header h2, #article-header h1{
     padding-top: 50px; 
     padding-bottom: 20px; 
     font-size: 30px;
@@ -117,18 +112,21 @@ main{
     font-size: 36px;
     font-weight: bold;
 }
-    
- /* font-family: 'cheltenham1'; 
- font-family: 'cheltenham2';
- font-family: 'cheltenham3';
- font-family: 'cheltenham-normal';*/
-
-
-#article-header p{
+ 
+ .footnote {
     display: inline-block;
     width: 80%;
-    font-size: 15px;
-    margin-top: 8px; 
+    font-size: 18px;
+    line-height: 18px;
+    margin: 8px 0; 
+    color:rgb(114, 114, 114);
+    font-family: 'nyt-cheltenham','chelten1';
+}
+
+.footnote > span{
+    font-family: inherit;
+    font-size: 12px;
+    color: rgb(124, 124, 124);
 }
 /*<Content>*/
 #content-container{
@@ -152,41 +150,51 @@ main{
 }
 
 #content{    
-    /* margin-left: 172.5px; */
     float: left;
     width: 60%;
     max-width: 600px;
 }
+
 #content h1{    
     margin-bottom: 20px;
 }
+
 #content h4{
     margin-top:10px;
     display: inline-block;    
 }
+
 #content img{
-     max-height: 30px ;
-     float: right;     
+     float: right;    
 }
+
 #content-text{
     margin-top: 40px;
 }
 
 #content-text p{
-    font-family: nyt-imperial;
+    font-family: 'nyt-imperial';
     font-size: 19px;
     line-height: 32px;
 }
 
+#content-text p > span{
+    font-weight: bold;
+}
+
 aside{
-    width: 20%;
+    width: 25%;
     margin-left: 42.5px;
+}
+
+iframe{
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .iframe-container{
     width: 100%;
     height: 750px;
-    overflow:hidden;
 }
 
 .iframe-theory{
@@ -194,18 +202,27 @@ aside{
     height: 100%;
 }
 
+.youtube-iframe{
+    width:100%;
+    height:315px;
+}
+
 #img-article-container{
-    width: 100%;
-    height: 500px;
+    width: 100%;  
 }
 
 #img-article-container img{
-    width: 100%;
+    width: 120%;
     max-height: 600px;
+    margin-bottom: 5px;
+    position:relative;
+    left: 10%;
 }
 
 h6{
-    font-size: 8px;
+    font-size: 12px;
+    line-height: 16px;
+    color:rgb(173, 173, 173);
 }
 
 .article-footer{
@@ -221,28 +238,24 @@ h6{
 }
 
 #articles{
-    margin-top: 45px 0px 0px;
+    margin-top: 45px;
     padding-top: 20px;
     width: 100%;
-   
-    background-color: beige;
 }
 
 #articles>div{    
-  
-    background-color: bisque;
     float: left;
     border-top: 1px solid black;
 }
 
 #articles-titles{
-    width: 33.33%;
+    width: 22%;
     margin-left: 30px;
 }
 
 #articles-articles{
-    width: 61%;
-    margin-left: 30px;
+    width: 50%;
+    margin-left: 10%;
 }
 
 #articles-container::after {
@@ -250,12 +263,6 @@ h6{
     clear: both;
     display: table;
 }
-
-/*::after{
-  content: "";
-  clear: both;
-  display: table;
-}*/
 
 #articles-articles div:nth-child(2){
     border-top: 1px solid black;
@@ -267,7 +274,6 @@ article{
     float:left;
     width:33.33%;
     height: 310px;
-    background-color: darkviolet;
     display: block;
     padding: 10px 10px 0 0;
     clear: right;
@@ -275,14 +281,15 @@ article{
 
 .articles-container button{
     float: right;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 20px;
 }
 
 .articles-container .article-main-link{
     float: left;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 article img{
@@ -306,41 +313,47 @@ article .article-date{
 }
 
 #articles-titles h1{
-    font-style: bold;
-    font: 2s5px;
-    margin: 20px 0;
+    font-weight: bold;
+    font: 15px;
+    margin: 30px 0 20px 0;
 }
 
 #articles-titles a{
-    font-size: 20px;        
+    font-size: 17.5px;        
+    text-decoration: none;
+    color:black;
+    font-family: 'nyt-cheltenham','nyt-cheltenham' ;
 }
+
+#articles-titles a:hover{
+    color:rgb(165, 165, 165);
+}
+
 
 #articles-titles li{
     padding: 20px 0;
     border-top: 1px solid rgba(128, 128, 128, 0.233); 
 }
 
-/*<Side bar>*/
 #side-add{
-    margin-top: 2000px;    /*setear despues de setear el contenido*/
-    background-color: blue;
+    margin-top: 2000px; 
 }
 
 /* Both titles of the two aside bars*/
 #side-add h1, #side-signup h1{         
-    padding-bottom: 20px;
-    border-bottom: 1px solid gray;
+    padding-bottom: 20px; 
     font-weight: bold;    
     padding-right: 90px;
 }
 
 #side-add p,#side-add img{
     float:left;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 #side-add p{
     width: 70%;
-    padding: 30px 0 20px 0;
+    padding: 30px 10px 20px 10px;
+    font-size: 15px;
 }
 #side-add img{
     width: 30%;
@@ -352,14 +365,11 @@ article .article-date{
 }
 
 #sign-up-botton{
-    width: 100%;
-
-    
+    width: 100%;   
 }
 
 #side-signup{    
     margin-top: 600px;
-    background-color: aquamarine;
 }
 
 #side-signup *{
@@ -367,6 +377,11 @@ article .article-date{
 }
 #side-signup p{
     padding-right: 90px;
+    margin-bottom: 15px;
+    line-height: 15px;
+    font-size: 13px;
+    color: rgb(173, 173, 173);
+    font-family: 'nyt-franklin', 'helvetica', 'arial', 'sans-serif';
 }
 
 #side-signup-check input, #side-signup-check span{
@@ -377,6 +392,7 @@ article .article-date{
     width: 10%;
     margin: 0 auto;
 }
+
 #side-signup-check span{
     width: 90%;
 }
@@ -384,7 +400,6 @@ article .article-date{
 .border-roundup{
     border-radius: 4px;
 }
-
 
 #side-signup-check::after{
     content: "";
@@ -407,26 +422,43 @@ article .article-date{
     line-height: 11px;
     padding: 11px 12px 8px;
     color: #fff;
-    
     background-color: #6288a5;
     text-align: center;
     height: 35px;
-
     border-radius: 4px;
     border: 1px solid #326891;
 }
 
-/* .tittle1{
-    margin-top: 30px;
-} */
+#button-stories{
+    padding: 4px;
+    border-radius: 2px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    margin-top: 10px; 
+}
 
+#button-stories span{
+    display: inline-block;
+    margin: auto 0;
+}
+
+#button-stories svg{
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 10px;
+    position: relative;
+    bottom: -5px;
+    
+}
 
 /*</Content>*/
 
-
 /*<Footer>*/
+
 footer{
-    background-color: green;    
     clear: both;
 }
 .clearfix::after{
@@ -442,7 +474,9 @@ footer{
 .footer-column{
     float:left;
     width: 16.66%;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
+    margin-top: 20px;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 .footer-column>a{
@@ -463,12 +497,17 @@ footer>div{
     clear:both;
 }
 #gohome{
-    margin-top: 26px; /* CAMBIAR 200px*/
+    margin-top: 10px;
     width: 75%;
+    font-size: 12px;
 }
 
 .float-left{
     float:left;
+}
+
+.float-right{
+    float:right;
 }
 
 #footer-title{
@@ -489,12 +528,36 @@ footer>div{
 }
 
 #legal-awrap{
-    padding: 0 auto;
+    width: 90%;
+    display: inline-block;
+    margin: 10px 5%;
+}
+
+#legal-awrap a{
+    font-size: 12px;
+    padding-right: 10px;
+    color: gray;
+}
+
+#legal-awrap a:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .footer-subscribe-ul{
-    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+#subscribe-list li{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.footer-subscribe-ul li{
+    font-size: 10px;
+    line-height: 25px;
+}
+
 
 #footer-container{
     max-width: 1200px;
@@ -516,10 +579,24 @@ footer>div{
     width: 184px;
 }
 
-/*
--como conseguir esta fuente en google fonts: https://fonts.google.com/specimen/Libre+Franklin?selection.family=Libre+Franklin
--como centrar el legat
-*/
+.footer-column h3{
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.footer-column > ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin: 5px 0;
+}
+
+.footer-column:last-child{
+    border-left: 1px solid rgb(175, 175, 175);
+}
+
+
 /*</Footer>*/
 
 .subs-icon{
