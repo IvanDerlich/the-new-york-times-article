@@ -6,6 +6,17 @@
     font-family: 'News Cycle', sans-serif ;
 }
 
+#menu-icon{
+    padding-top:10px;
+    display: block;
+}
+
+#search-icon{
+    padding-top:13px;
+    display: block;
+    font-size: 15px;
+}
+
 header{    
     background-color: blue;
     height: 36px; 
@@ -16,15 +27,22 @@ nav{
     z-index: 2;
     position: fixed;
     top: 0;
-    height: 36px;
+    height: 48px;
     width: 100%;    
     min-width: 600px;
+    border-bottom: 1px solid gray;
 }
 
 nav > div{
     width: 33.33%;
     float: left;
     padding: 2px;
+}
+
+#titlem{
+    width: 100%;
+    display:block;
+    margin: 5px auto;
 }
 
 .nav-left{ 
@@ -34,22 +52,29 @@ nav > div{
 
 .nav-left > h4{
     display: inline-block;
+    margin-top: 13px;
+    margin-left: 15px;
+    font-weight: bolder;
+    font-size: 13.5px;
+	font-family: 'Libre Franklin', sans-serif;
 }
 
 .nav-left i {
     text-align: center;
     font-size: 20px;
-    margin: 5px;
+    margin: 0 14px;
+    float: left;
 }
 
 .nav-center{        
     min-width: 190px;    
-    margin: 5px auto;
+    /* margin: 0 auto; */
 }
 
 .nav-center svg {
     max-height: 25.64px; 
     width: 100%; 
+    margin:0;
 }
 
 .nav-right{ 
@@ -82,13 +107,22 @@ main{
 }
 
 #article-header h1{
-    padding-top: 40px; 
+    padding-top: 50px; 
     padding-bottom: 20px; 
     font-size: 30px;
-    width: 40%;
+    width: 38%;
     margin-left: 20%;
     font-style: italic;
+    font-family: cheltenham1;
+    font-size: 36px;
+    font-weight: bold;
 }
+    
+ /* font-family: 'cheltenham1'; 
+ font-family: 'cheltenham2';
+ font-family: 'cheltenham3';
+ font-family: 'cheltenham-normal';*/
+
 
 #article-header p{
     display: inline-block;
@@ -98,12 +132,10 @@ main{
 }
 /*<Content>*/
 #content-container{
-    margin-left: 39.5px;
-    margin-right: 39.5px;
-    margin-bottom: 16px;
-    
+    margin-left: 375px;
+    margin-bottom: 16px;    
 }
-#content-container #content, 
+
 #content-container aside{
     margin-top: 50px;
     position: relative;
@@ -120,8 +152,10 @@ main{
 }
 
 #content{    
-    margin-left: 172.5px;
-    width: 50%;
+    /* margin-left: 172.5px; */
+    float: left;
+    width: 60%;
+    max-width: 600px;
 }
 #content h1{    
     margin-bottom: 20px;
@@ -138,8 +172,14 @@ main{
     margin-top: 40px;
 }
 
+#content-text p{
+    font-family: nyt-imperial;
+    font-size: 19px;
+    line-height: 32px;
+}
+
 aside{
-    width: 10%;
+    width: 20%;
     margin-left: 42.5px;
 }
 
@@ -178,10 +218,6 @@ h6{
 
 .article-footer img{
     float: right;
-}
-
-#editorspick{
-
 }
 
 #articles{
@@ -275,14 +311,50 @@ article .article-date{
     margin: 20px 0;
 }
 
-#articles-titles h2{
-    font-size: 20px;
+#articles-titles a{
+    font-size: 20px;        
+}
+
+#articles-titles li{
     padding: 20px 0;
     border-top: 1px solid rgba(128, 128, 128, 0.233); 
 }
 
-#side-add{         
+/*<Side bar>*/
+#side-add{
+    margin-top: 2000px;    /*setear despues de setear el contenido*/
     background-color: blue;
+}
+
+/* Both titles of the two aside bars*/
+#side-add h1, #side-signup h1{         
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    font-weight: bold;    
+    padding-right: 90px;
+}
+
+#side-add p,#side-add img{
+    float:left;
+    padding: 20px 0;
+}
+#side-add p{
+    width: 70%;
+    padding: 30px 0 20px 0;
+}
+#side-add img{
+    width: 30%;
+}
+#side-add li::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#sign-up-botton{
+    width: 100%;
+
+    
 }
 
 #side-signup{    
@@ -290,9 +362,58 @@ article .article-date{
     background-color: aquamarine;
 }
 
+#side-signup *{
+    display: block;
+}
+#side-signup p{
+    padding-right: 90px;
+}
+
+#side-signup-check input, #side-signup-check span{
+    float: left;
+}
+
+#side-signup-check input{
+    width: 10%;
+    margin: 0 auto;
+}
+#side-signup-check span{
+    width: 90%;
+}
+
+.border-roundup{
+    border-radius: 4px;
+}
+
+
+#side-signup-check::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#suitt {
+    margin: 30px 0;
+    width: 100%;
+}
+
+/*</Side bar>*/
+
 .button{
-    background-color: aquamarine;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+    letter-spacing: 0.05em;
+    line-height: 11px;
+    padding: 11px 12px 8px;
+    color: #fff;
+    
+    background-color: #6288a5;
     text-align: center;
+    height: 35px;
+
+    border-radius: 4px;
+    border: 1px solid #326891;
 }
 
 /* .tittle1{
@@ -369,6 +490,30 @@ footer>div{
 
 #legal-awrap{
     padding: 0 auto;
+}
+
+.footer-subscribe-ul{
+    padding-top: 20px;
+}
+
+#footer-container{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 3% 9px;
+}
+
+#footer-container::before {
+    content: "";
+    display: block;
+    height: 1px;
+    margin-top: 0px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    border-top: 2px solid rgb(226, 226, 226);
+}
+
+#footer-title{
+    height: 44px;
+    width: 184px;
 }
 
 /*
