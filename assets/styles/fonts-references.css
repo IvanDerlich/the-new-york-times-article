@@ -15,7 +15,7 @@
   src: url(../fonts/Cheltenham-Normal.ttf);
 }
 
-/*Copiadas del New York Times*/
+/*<>Copiadas del New York Times*/
 
 @font-face {
 font-family: 'nyt-franklin';
@@ -248,3 +248,4 @@ font-style: italic;
 font-weight: 700;
 font-display: swap;
 }
+/*</> Copiadas del New York Times*/
