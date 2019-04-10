@@ -27,5 +27,5 @@ Box Model
 
 # Demo Project View Link
 
-[Development Branch](https://raw.githack.com/IvanDerlich/newyorktimesarticle/tree/development)
+[Master Branch](https://ivanderlich.github.io/newyorktimesarticle/)
 
