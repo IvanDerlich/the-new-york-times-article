@@ -604,6 +604,9 @@ footer>div{
     width: 13px;
 }
 
+#content-text>p{
+    padding-bottom: 30px;
+}
 
 @font-face {
     font-family: 'cheltenham1';
