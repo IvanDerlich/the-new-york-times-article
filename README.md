@@ -7,6 +7,14 @@ http://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-butt
 
 The purpose was to learn to style with CSS Floats and Positioning
 
+## Demo
+
+[Video](https://www.youtube.com/watch?v=GBlblasOeg8)
+
+## Instalation
+
+Clone the repo and open index.html
+
 ## Skills we have demonstrated after completing the project
 
 Working with elements
