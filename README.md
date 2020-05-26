@@ -9,11 +9,8 @@ The purpose was to learn to style with CSS Floats and Positioning
 
 ## Demo
 
+![](docs/vid.gif)
 ![](docs/1.png)
-
-## Video
-
-[Video](https://www.youtube.com/watch?v=GBlblasOeg8)
 
 ## Instalation
 
