@@ -1,8 +1,8 @@
-# Project:Positioning and Floating Elements
+# Project: Positioning and Floating Elements
 
 ## Brief introduction
 
-This is replica website of this site:
+This is a replica website of this site:
 http://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0
 
 The purpose was to learn to style with CSS Floats and Positioning
@@ -12,7 +12,7 @@ The purpose was to learn to style with CSS Floats and Positioning
 ![](docs/vid.gif)
 ![](docs/1.png)
 
-## Instalation
+## Installation
 
 Clone the repo and open index.html
 
