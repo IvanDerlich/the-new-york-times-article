@@ -7,6 +7,10 @@ A replica website of [this](http://www.nytimes.com/2014/03/18/science/space/dete
 
 The purpose was to learn to style with CSS floats and positioning.
 
+## Live version
+
+[Master Branch](https://ivanderlich.github.io/newyorktimesarticle/)
+
 ## Demo
 
 ![](docs/vid.gif)
@@ -34,9 +38,6 @@ Box Model
 
 [Ivan Derlich](https://github.com/IvanDerlich)
 
-## Demo Project View Link
-
-[Master Branch](https://ivanderlich.github.io/newyorktimesarticle/)
 
 ## Original website archive
 
