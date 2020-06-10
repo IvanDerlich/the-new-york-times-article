@@ -2,8 +2,8 @@
 
 ## Brief introduction
 
-This is a replica website of this site:
-http://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0
+A replica website of [this](http://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) site:
+
 
 The purpose was to learn to style with CSS floats and positioning.
 
