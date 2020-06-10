@@ -34,9 +34,9 @@ The purpose was to learn to style with CSS floats and positioning.
 
 ## Contributors
 
-[Diego Arvizu](https://github.com/diegoarvz4)
+[Diego Arvizu](https://github.com/diegoarvz4).
 
-[Ivan Derlich](https://github.com/IvanDerlich)
+[Ivan Derlich](https://github.com/IvanDerlich).
 
 ## The article today
 
