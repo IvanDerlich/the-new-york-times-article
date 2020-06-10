@@ -2,7 +2,7 @@
 
 ## Brief introduction
 
-A replica website of [this](https://web.archive.org/web/20190410204320/https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)site.
+A replica website of [this](https://web.archive.org/web/20190410204320/https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) site.
 
 The purpose was to learn to style with CSS floats and positioning.
 
