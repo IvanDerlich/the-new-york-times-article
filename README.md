@@ -18,19 +18,19 @@ The purpose was to learn to style with CSS floats and positioning.
 ## Installation
 
 - Clone or download the repo. 
-- Move the new folder and open index.html
+- Move the new folder and open index.html.
 
 ## Skills we have demonstrated after completing the project
 
-- Working with elements
+- Working with elements.
 
-- Floats
+- Floats.
 
-- Positioning
+- Positioning.
 
-- Display 
+- Display.
 
-- Box Model
+- Box Model.
 
 ## Contributors
 
