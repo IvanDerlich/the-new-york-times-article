@@ -5,7 +5,7 @@
 This is a replica website of this site:
 http://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0
 
-The purpose was to learn to style with CSS Floats and Positioning
+The purpose was to learn to style with CSS floats and positioning.
 
 ## Demo
 
