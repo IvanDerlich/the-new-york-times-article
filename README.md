@@ -9,7 +9,7 @@ The purpose was to learn to style with CSS floats and positioning.
 
 ## Live version
 
-[Master Branch](https://ivanderlich.github.io/newyorktimesarticle/)
+[Here](https://ivanderlich.github.io/newyorktimesarticle/)
 
 ## Demo
 
